@@ -73,7 +73,7 @@ enum custom_codes {
   /*
   * Layer _FN2_LAYER
   * ,-----------------------------------------------------------------------------------------.
-  * |  `  | BT1 | BT2 | BT3 | BT4 | USB |  F6 |CALC |LEDSP|LEDNI|LEDOO|LEDPP|LEDNP|  DELETE   |
+  * |  `  | BT1 | BT2 | BT3 | BT4 | BTU | USB |CALC |LEDSP|LEDNI|LEDOO|LEDPP|LEDNP|  DELETE   |
   * |-----------------------------------------------------------------------------------------+
   * | Tab    |  q  | UP  |  e  |  r  |  t  |  y  |  u  |  i  |  o  | PS | HOME | END |   \    |
   * |-----------------------------------------------------------------------------------------+
@@ -86,7 +86,7 @@ enum custom_codes {
   *
   */
  [_FN2_LAYER] = KEYMAP( /* Base */
-    KC_GRV, KC_AP2_BT1, KC_AP2_BT2, KC_AP2_BT3, KC_AP2_BT4, KC_AP2_USB, KC_TRNS, KC_CALC, KC_AP_LED_SPEED, KC_AP_LED_NEXT_INTENSITY, KC_AP_LED_ON_OFF, KC_AP_LED_PREV_PROFILE, KC_AP_LED_NEXT_PROFILE, KC_DEL,
+    KC_GRV, KC_AP2_BT1, KC_AP2_BT2, KC_AP2_BT3, KC_AP2_BT4, KC_AP2_BT_UNPAIR, KC_AP2_USB, KC_CALC, KC_AP_LED_SPEED, KC_AP_LED_NEXT_INTENSITY, KC_AP_LED_ON_OFF, KC_AP_LED_PREV_PROFILE, KC_AP_LED_NEXT_PROFILE, KC_DEL,
     KC_TRNS, KC_TRNS, KC_UP, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_PSCR, KC_HOME, KC_END, KC_TRNS,
     KC_TRNS, KC_LEFT, KC_DOWN, KC_RGHT, KC_TRNS, KC_TRNS, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, KC_PGUP, KC_PGDN, KC_TRNS,
     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_VOLD, KC_MUTE, KC_VOLU, KC_INS, KC_DEL, KC_TRNS,
